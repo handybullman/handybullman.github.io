@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 by 7 Textarea</title>
+<style>
+    .import-srp__inputs {
+        width: 100%;
+    }
+
+    .import-srp__srp-word-label {
+        display: inline-block;
+        width: 20px; /* Adjust as needed */
+    }
+
+    .import-srp__srp-word textarea {
+        width: calc(7 * 20px); /* Adjust as needed */
+        height: auto;
+        resize: none;
+    }
+</style>
+</head>
+<body>
+<div class="import-srp__inputs" id="import-srp__inputs">
+    <div class="import-srp__srp-word">
+        <label for="import-srp__srp-word" class="import-srp__srp-word-label">
+            <p class="box box--margin-top-1 box--margin-bottom-1 box--flex-direction-row typography typography--p typography--weight-normal typography--style-normal typography--color-text-default">1.</p>
+        </label>
+        <div class="MuiFormControl-root MuiTextField-root">
+            <div class="MuiInputBase-root MuiInput-root jss12 MuiInputBase-formControl MuiInput-formControl">
+                <textarea aria-invalid="false" name="input" autocomplete="off" id="import-srp__srp-word" dir="auto" data-testid="import-srp__srp-word" class="MuiInputBase-input MuiInput-input" rows="7" cols="7"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
